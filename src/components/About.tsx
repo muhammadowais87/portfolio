@@ -1,10 +1,10 @@
-import { Code, Lightbulb, Users, Zap } from 'lucide-react';
+import { Code, Lightbulb, Users, Zap, ServerCog } from 'lucide-react';
 import { useCountUp, useInView } from '../hooks/useCountUp';
 
 const About = () => {
   const { ref: statsRef, isInView: statsInView } = useInView();
   
-  const projectCount = useCountUp(50, 2000, 0, statsInView);
+  const projectCount = useCountUp(10, 2000, 0, statsInView);
   const yearCount = useCountUp(3, 2000, 0, statsInView);
   const techCount = useCountUp(20, 2000, 0, statsInView);
 
@@ -14,7 +14,7 @@ const About = () => {
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-6xl font-bold mb-6 heading-gradient">
-              About Me
+              About Us
             </h2>
             <p className="text-xl text-foreground/90 max-w-2xl mx-auto text-glow leading-relaxed tracking-wide">
               Passionate developer with expertise across the full technology stack
@@ -24,31 +24,35 @@ const About = () => {
           <div className="grid md:grid-cols-2 gap-12 items-center mb-16">
             <div className="order-2 md:order-1">
               <h3 className="text-3xl font-bold mb-6 text-gradient">
-                Building Digital Solutions That Matter
+                Engineering the Future with Intelligent Software
               </h3>
               <p className="text-foreground/80 leading-relaxed mb-6">
-                I'm a Software Engineering student with strong experience in full-stack development, 
-                computer vision, data analysis, and mobile app engineering. I specialize in transforming 
-                complex technical challenges into intuitive, user-focused solutions that deliver real impact.
-              </p>
-              <p className="text-foreground/80 leading-relaxed mb-6">
-                My journey has taken me through diverse projects—from building AI-powered sports analytics 
-                systems and accessibility tools like an eye-controlled mouse, to creating creative platforms 
-                such as Glitchify. Along the way, I've worked with technologies like Python, Next.js, Flutter, 
-                Firebase, Power BI, and OpenCV, blending innovation with practicality.
-              </p>
-              <p className="text-foreground/80 leading-relaxed">
-                Driven by curiosity and continuous learning, I stay engaged with emerging trends in AI, 
-                machine learning, data visualization, and web technologies. My goal is to design and build 
-                solutions that are not only scalable and efficient but also insightful, meaningful, and user-friendly.
-              </p>
+  At NovaSoftCode, we’re a passionate team of developers and engineers dedicated to 
+  transforming complex challenges into intelligent, user-focused solutions that make a real difference.
+</p>
+
+<p className="text-foreground/80 leading-relaxed mb-6">
+  Our expertise spans full-stack development, computer vision, data analytics, 
+  and mobile app creation — delivering powerful systems that drive innovation, 
+  efficiency, and accessibility for our clients.
+</p>
+
+<p className="text-foreground/80 leading-relaxed mb-6">
+  Using a modern technology stack — including Python, Next.js, Flutter, Firebase, Power BI, 
+  and OpenCV — we build scalable, secure, and high-performance products designed to grow with your business.
+</p>
+
+<p className="text-foreground/80 leading-relaxed">
+  Together, let’s turn your ideas into impactful digital experiences.
+</p>
+
             </div>
-            
+
             <div className="order-1 md:order-2 relative group">
               <div className="relative overflow-hidden rounded-2xl shadow-2xl border-2 border-hero-accent/20">
                 <img 
-                  src="/profilee.jpeg" 
-                  alt="Muhammad Owais" 
+                  src="/profile.jpeg" 
+                  alt="NovaSoftCode" 
                   className="w-full aspect-square transition-transform duration-500 group-hover:scale-110"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
@@ -57,9 +61,10 @@ const About = () => {
             </div>
           </div>
 
-          <h3 className="text-2xl font-bold text-center mb-8">My Specialties</h3>
+          <h3 className="text-2xl font-bold text-center mb-8">Our Specialties</h3>
           
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
+          <div className="grid md:grid-cols-2 lg:grid-cols-5 gap-8 mb-12">
+            {/* Frontend */}
             <div className="text-center p-6 bg-card rounded-lg card-hover">
               <Code className="w-12 h-12 text-hero-accent mx-auto mb-4" />
               <h4 className="text-xl font-semibold mb-3">Frontend Developer</h4>
@@ -73,7 +78,8 @@ const About = () => {
                 <span className="px-2 py-1 bg-hero-accent/20 text-hero-accent rounded text-xs">Tailwind CSS</span>
               </div>
             </div>
-            
+
+            {/* Backend */}
             <div className="text-center p-6 bg-card rounded-lg card-hover">
               <Lightbulb className="w-12 h-12 text-hero-accent mx-auto mb-4" />
               <h4 className="text-xl font-semibold mb-3">Backend Developer</h4>
@@ -83,12 +89,13 @@ const About = () => {
               <div className="flex flex-wrap gap-2 justify-center">
                 <span className="px-2 py-1 bg-hero-accent/20 text-hero-accent rounded text-xs">Node.js</span>
                 <span className="px-2 py-1 bg-hero-accent/20 text-hero-accent rounded text-xs">Python</span>
-                <span className="px-2 py-1 bg-hero-accent/20 text-hero-accent rounded text-xs">PostgreSQL</span>
+                {/* <span className="px-2 py-1 bg-hero-accent/20 text-hero-accent rounded text-xs">PostgreSQL</span> */}
                 <span className="px-2 py-1 bg-hero-accent/20 text-hero-accent rounded text-xs">REST APIs</span>
                 <span className="px-2 py-1 bg-hero-accent/20 text-hero-accent rounded text-xs">Fast API</span>
               </div>
             </div>
-            
+
+            {/* AI/ML */}
             <div className="text-center p-6 bg-card rounded-lg card-hover">
               <Users className="w-12 h-12 text-hero-accent mx-auto mb-4" />
               <h4 className="text-xl font-semibold mb-3">AI/ML Engineer</h4>
@@ -102,7 +109,8 @@ const About = () => {
                 <span className="px-2 py-1 bg-hero-accent/20 text-hero-accent rounded text-xs">OpenCV</span>
               </div>
             </div>
-            
+
+            {/* Mobile */}
             <div className="text-center p-6 bg-card rounded-lg card-hover">
               <Zap className="w-12 h-12 text-hero-accent mx-auto mb-4" />
               <h4 className="text-xl font-semibold mb-3">Mobile Developer</h4>
@@ -114,8 +122,24 @@ const About = () => {
                 <span className="px-2 py-1 bg-hero-accent/20 text-hero-accent rounded text-xs">Android</span>
               </div>
             </div>
+
+            {/* DevOps */}
+            <div className="text-center p-6 bg-card rounded-lg card-hover">
+              <ServerCog className="w-12 h-12 text-hero-accent mx-auto mb-4" />
+              <h4 className="text-xl font-semibold mb-3">DevOps Engineer</h4>
+              <p className="text-foreground/70 text-sm mb-4">
+                Automating infrastructure and CI/CD pipelines for efficient delivery
+              </p>
+              <div className="flex flex-wrap gap-2 justify-center">
+                <span className="px-2 py-1 bg-hero-accent/20 text-hero-accent rounded text-xs">Docker</span>
+                <span className="px-2 py-1 bg-hero-accent/20 text-hero-accent rounded text-xs">Kubernetes</span>
+                <span className="px-2 py-1 bg-hero-accent/20 text-hero-accent rounded text-xs">CI/CD</span>
+                <span className="px-2 py-1 bg-hero-accent/20 text-hero-accent rounded text-xs">Azure</span>
+              </div>
+            </div>
           </div>
 
+          {/* Stats */}
           <div ref={statsRef} className="grid grid-cols-2 md:grid-cols-4 gap-6 mt-16">
             <div className="text-center p-6 bg-card rounded-lg card-hover group relative">
               <div className="absolute -inset-0.5 bg-gradient-to-r from-hero-accent/20 to-hero-glow/20 rounded-lg blur opacity-0 group-hover:opacity-100 transition-opacity"></div>
