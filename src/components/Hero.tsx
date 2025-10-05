@@ -104,9 +104,9 @@ const Hero = () => {
               <span className="heading-gradient animate-pulse-glow">{subtitleText}</span>
             </h1>
             
-            <h2 className="text-2xl md:text-3xl font-semibold text-gradient mb-3 tracking-wide">
+            {/* <h2 className="text-2xl md:text-3xl font-semibold text-gradient mb-3 tracking-wide">
               <span className="typewriter">{subtitleText}</span>
-            </h2>
+            </h2> */}
             
             <p className="text-lg md:text-xl text-foreground/70 mb-8 max-w-2xl mx-auto">
               <span className="typewriter">{taglineText}</span>
