@@ -86,17 +86,17 @@ const Header = () => {
             {/* Enhanced Logo */}
             <div className="absolute left-0 flex items-center gap-3 group">
               <div className="relative overflow-hidden">
-                <div className="text-4xl font-black bg-gradient-to-r from-hero-accent via-hero-glow to-purple-400 bg-clip-text text-transparent hover:scale-110 transition-all duration-500 border-2 border-hero-accent/40 rounded-xl px-4 py-2 shadow-[0_0_20px_rgba(190,115,255,0.4)] hover:shadow-[0_0_40px_rgba(190,115,255,0.7)] hover:border-hero-accent/80 backdrop-blur-sm bg-black/20 cursor-pointer">
-                  MA
+                {/* <div className="text-4xl font-black bg-gradient-to-r from-hero-accent via-hero-glow to-purple-400 bg-clip-text text-transparent hover:scale-110 transition-all duration-500 border-2 border-hero-accent/40 rounded-xl px-4 py-2 shadow-[0_0_20px_rgba(190,115,255,0.4)] hover:shadow-[0_0_40px_rgba(190,115,255,0.7)] hover:border-hero-accent/80 backdrop-blur-sm bg-black/20 cursor-pointer">
+                  NSC
                   
-                  {/* Logo Sparkle Effect */}
+               
                   <div className="absolute top-1 right-1 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                     <Sparkles size={12} className="text-hero-accent animate-spin" />
                   </div>
                   
-                  {/* Animated Border */}
+                 
                   <div className="absolute inset-0 rounded-xl bg-gradient-to-r from-hero-accent/30 to-hero-glow/30 opacity-0 group-hover:opacity-100 transition-opacity duration-300 -z-10 blur-sm"></div>
-                </div>
+                </div> */}
               </div>
             </div>
 
