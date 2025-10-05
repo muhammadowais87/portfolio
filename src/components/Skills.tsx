@@ -16,34 +16,33 @@ const Skills = () => {
 
   const skillCategories = {
     Frontend: [
-      { name: "React.js", level: 95, icon: "🔥", badge: "🔥", years: "1+ years" },
-      { name: "Next.js", level: 90, icon: "🔥", badge: "🔥", years: "1+ years" },
-      { name: "TypeScript", level: 90, icon: "🔥", badge: "🔥", years: "1+ years" },
+      { name: "React.js", level: 95, icon: "🔥", badge: "🔥", years: "3+ years" },
+      { name: "Next.js", level: 90, icon: "🔥", badge: "🔥", years: "2+ years" },
+      { name: "TypeScript", level: 90, icon: "🔥", badge: "🔥", years: "2+ years" },
       { name: "Tailwind CSS", level: 88, icon: "⭐", badge: "⭐", years: "2+ years" },
       { name: "Flutter", level: 75, icon: "⭐", badge: "⭐", years: "1+ years" },
-      { name: "Three.js", level: 65, icon: "💫", badge: "💫", years: "1+ years" },
     ],
     "Backend & Database": [
       { name: "Node.js", level: 85, icon: "🔥", badge: "🔥", years: "2+ years" },
       { name: "Python", level: 90, icon: "🔥", badge: "🔥", years: "3+ years" },
-      { name: "PostgreSQL", level: 80, icon: "⭐", badge: "⭐", years: "1+ years" },
-      { name: "MongoDB", level: 75, icon: "⭐", badge: "⭐", years: "1+ years" },
+      { name: "PostgreSQL", level: 80, icon: "⭐", badge: "⭐", years: "3+ years" },
+      { name: "MongoDB", level: 75, icon: "⭐", badge: "⭐", years: "2+ years" },
       { name: "Firebase", level: 85, icon: "🔥", badge: "🔥", years: "2+ years" },
-      { name: "Fast API", level: 80, icon: "⭐", badge: "⭐", years: "1+ years" },
+      { name: "Fast API", level: 80, icon: "⭐", badge: "⭐", years: "3+ years" },
     ],
     "AI/ML": [
       { name: "OpenCV", level: 90, icon: "🔥", badge: "🔥", years: "2+ years" },
       { name: "TensorFlow", level: 75, icon: "⭐", badge: "⭐", years: "1+ years" },
       { name: "PyTorch", level: 70, icon: "⭐", badge: "⭐", years: "1+ years" },
       { name: "Scikit-Learn", level: 80, icon: "⭐", badge: "⭐", years: "2+ years" },
-      { name: "YOLO", level: 85, icon: "🔥", badge: "🔥", years: "1+ years" },
+      // { name: "YOLO", level: 85, icon: "🔥", badge: "🔥", years: "1+ years" },
       { name: "NLP", level: 75, icon: "⭐", badge: "⭐", years: "1+ years" },
     ],
     "Tools & Technologies": [
       { name: "Power BI", level: 95, icon: "🔥", badge: "🔥", years: "1+ years" },
       { name: "Git & GitHub", level: 90, icon: "🔥", badge: "🔥", years: "3+ years" },
       { name: "Docker", level: 70, icon: "⭐", badge: "⭐", years: "1+ years" },
-      { name: "AWS", level: 65, icon: "💫", badge: "💫", years: "6+ months" },
+      { name: "Azure", level: 65, icon: "💫", badge: "💫", years: "6+ months" },
       { name: "Figma", level: 80, icon: "⭐", badge: "⭐", years: "2+ years" },
       { name: "Pandas", level: 90, icon: "🔥", badge: "🔥", years: "2+ years" },
     ]
@@ -113,7 +112,7 @@ const Skills = () => {
           </div>
 
           {/* Certifications */}
-          <div className="mt-16 grid md:grid-cols-2 gap-8">
+          {/* <div className="mt-16 grid md:grid-cols-2 gap-8">
             <div className="bg-card rounded-lg p-6">
               <h3 className="text-xl font-bold text-gradient mb-4">Certifications</h3>
               <ul className="space-y-2">
@@ -122,7 +121,6 @@ const Skills = () => {
                   GCU Certified Python Developer
                 </li>
                 <li className="flex items-center gap-2">
-                  <span className="text-hero-accent">•</span>
                   Udemy Certified Chat-Bot Developer
                 </li>
               </ul>
@@ -148,7 +146,7 @@ const Skills = () => {
                 Currently expanding knowledge in emerging technologies and modern architecture patterns.
               </p>
             </div>
-          </div>
+          </div> */}
 
           {/* Experience Summary */}
           <div className="mt-12 bg-black/30 backdrop-blur-sm rounded-lg p-8 text-center border border-hero-accent/10">
@@ -159,7 +157,7 @@ const Skills = () => {
                 <p className="text-sm text-foreground/70">years in full-stack development</p>
               </div>
               <div>
-                <div className="text-3xl font-bold text-hero-accent mb-2">30+</div>
+                <div className="text-3xl font-bold text-hero-accent mb-2">10+</div>
                 <p className="text-sm text-foreground/70">successful projects delivered</p>
               </div>
               <div>
