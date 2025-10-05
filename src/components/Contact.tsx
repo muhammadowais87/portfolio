@@ -21,14 +21,14 @@ const Contact = () => {
     {
       icon: Mail,
       label: 'Email',
-      value: 'owais@example.com',
-      link: 'mailto:abdullah@example.com'
+      value: 'novasoftcode@gmail.com',
+      link: 'mailto:novasoftcode@gmail.com'
     },
     {
       icon: Phone,
       label: 'Phone',
-      value: '03264917496',
-      link: 'tel:+15551234567'
+      value: '+92 3264917496',
+      link: 'tel:+92 3264917496'
     },
     {
       icon: MapPin,
@@ -105,9 +105,14 @@ const Contact = () => {
             <div>
               <h3 className="text-2xl font-bold mb-6 text-hero-accent">Get In Touch</h3>
               <p className="text-foreground/80 mb-8 leading-relaxed">
-                I'm always interested in new opportunities and exciting projects. 
-                Whether you're a company looking to hire, or you're a fellow developer 
-                wanting to collaborate, don't hesitate to reach out.
+              NovaSoftCode is always interested in new opportunities and exciting projects. 
+              Our doors are open for businesses seeking a dedicated and skilled team to bring 
+              their software visions to life. We also welcome collaboration with fellow developers, 
+              startups, and innovators who are passionate about creating the next generation of 
+              digital solutions.
+              </p>
+              <p className="text-foreground/80 mb-8 leading-relaxed">
+              Let's connect and discuss how we can build the future, together.
               </p>
             </div>
 
