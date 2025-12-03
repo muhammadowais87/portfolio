@@ -16,35 +16,28 @@ const Skills = () => {
 
   const skillCategories = {
     Frontend: [
-      { name: "React.js", level: 95, icon: "🔥", badge: "🔥", years: "3+ years" },
+      { name: "React.js", level: 95, icon: "🔥", badge: "🔥", years: "2+ years" },
+      { name: "React Native", level: 90, icon: "🔥", badge: "🔥", years: "1+ years" },
       { name: "Next.js", level: 90, icon: "🔥", badge: "🔥", years: "2+ years" },
       { name: "TypeScript", level: 90, icon: "🔥", badge: "🔥", years: "2+ years" },
       { name: "Tailwind CSS", level: 88, icon: "⭐", badge: "⭐", years: "2+ years" },
-      { name: "Flutter", level: 75, icon: "⭐", badge: "⭐", years: "1+ years" },
     ],
     "Backend & Database": [
       { name: "Node.js", level: 85, icon: "🔥", badge: "🔥", years: "2+ years" },
-      { name: "Python", level: 90, icon: "🔥", badge: "🔥", years: "3+ years" },
-      { name: "PostgreSQL", level: 80, icon: "⭐", badge: "⭐", years: "3+ years" },
+      { name: "Python", level: 90, icon: "🔥", badge: "🔥", years: "1+ years" },
+      { name: "PostgreSQL", level: 80, icon: "⭐", badge: "⭐", years: "2+ years" },
       { name: "MongoDB", level: 75, icon: "⭐", badge: "⭐", years: "2+ years" },
-      { name: "Firebase", level: 85, icon: "🔥", badge: "🔥", years: "2+ years" },
-      { name: "Fast API", level: 80, icon: "⭐", badge: "⭐", years: "3+ years" },
+      { name: "Firebase", level: 85, icon: "🔥", badge: "🔥", years: "1+ years" },
+      { name: "Fast API", level: 80, icon: "⭐", badge: "⭐", years: "2+ years" },
     ],
-    "AI/ML": [
-      { name: "OpenCV", level: 90, icon: "🔥", badge: "🔥", years: "2+ years" },
-      { name: "TensorFlow", level: 75, icon: "⭐", badge: "⭐", years: "1+ years" },
-      { name: "PyTorch", level: 70, icon: "⭐", badge: "⭐", years: "1+ years" },
-      { name: "Scikit-Learn", level: 80, icon: "⭐", badge: "⭐", years: "2+ years" },
-      // { name: "YOLO", level: 85, icon: "🔥", badge: "🔥", years: "1+ years" },
-      { name: "NLP", level: 75, icon: "⭐", badge: "⭐", years: "1+ years" },
-    ],
+   
     "Tools & Technologies": [
-      { name: "Power BI", level: 95, icon: "🔥", badge: "🔥", years: "1+ years" },
-      { name: "Git & GitHub", level: 90, icon: "🔥", badge: "🔥", years: "3+ years" },
-      { name: "Docker", level: 70, icon: "⭐", badge: "⭐", years: "1+ years" },
+     
+      { name: "Git & GitHub", level: 90, icon: "🔥", badge: "🔥", years: "6+ months" },
+      { name: "Docker", level: 70, icon: "⭐", badge: "⭐", years: "6+ months" },
+      { name: "Kubernetes", level: 65, icon: "💫", badge: "💫", years: "6+ months" },
       { name: "Azure", level: 65, icon: "💫", badge: "💫", years: "6+ months" },
-      { name: "Figma", level: 80, icon: "⭐", badge: "⭐", years: "2+ years" },
-      { name: "Pandas", level: 90, icon: "🔥", badge: "🔥", years: "2+ years" },
+      
     ]
   };
 
