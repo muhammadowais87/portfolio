@@ -21,19 +21,18 @@ const Contact = () => {
     {
       icon: Mail,
       label: 'Email',
-      value: 'novasoftcode@gmail.com',
-      link: 'mailto:novasoftcode@gmail.com'
+      value: 'mo733025@gmail.com',
     },
     {
       icon: Phone,
       label: 'Phone',
       value: '+92 3264917496',
-      link: 'tel:+92 3264917496'
+      link: 'tel:+923264917496'
     },
     {
       icon: MapPin,
       label: 'Location',
-      value: 'Lahore , Pakistan',
+      value: 'Lahore, Pakistan',
       link: null
     }
   ];
@@ -105,14 +104,12 @@ const Contact = () => {
             <div>
               <h3 className="text-2xl font-bold mb-6 text-hero-accent">Get In Touch</h3>
               <p className="text-foreground/80 mb-8 leading-relaxed">
-              NovaSoftCode is always interested in new opportunities and exciting projects. 
-              Our doors are open for businesses seeking a dedicated and skilled team to bring 
-              their software visions to life. We also welcome collaboration with fellow developers, 
-              startups, and innovators who are passionate about creating the next generation of 
-              digital solutions.
+                I'm always interested in new opportunities and exciting mobile app projects. 
+                Whether you need a cross-platform app, want to discuss a project idea, or 
+                are looking for collaboration, I'd love to hear from you.
               </p>
               <p className="text-foreground/80 mb-8 leading-relaxed">
-              Let's connect and discuss how we can build the future, together.
+                Let's connect and create something amazing together!
               </p>
             </div>
 
