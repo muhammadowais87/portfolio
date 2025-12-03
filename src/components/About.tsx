@@ -14,45 +14,48 @@ const About = () => {
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-16">
             <h2 className="text-4xl md:text-6xl font-bold mb-6 heading-gradient">
-              About Us
+              About Me
             </h2>
             <p className="text-xl text-foreground/90 max-w-2xl mx-auto text-glow leading-relaxed tracking-wide">
-              Passionate developer with expertise across the full technology stack
+              Passionate full-stack developer with expertise in MERN Stack and React Native
             </p>
           </div>
 
           <div className="grid md:grid-cols-2 gap-12 items-center mb-16">
             <div className="order-2 md:order-1">
               <h3 className="text-3xl font-bold mb-6 text-gradient">
-                Engineering the Future with Intelligent Software
+                Building Mobile Experiences That Matter
               </h3>
               <p className="text-foreground/80 leading-relaxed mb-6">
-  At NovaSoftCode, we’re a passionate team of developers and engineers dedicated to 
-  transforming complex challenges into intelligent, user-focused solutions that make a real difference.
-</p>
+                I'm Muhammad Owais, a passionate full-stack developer dedicated to creating 
+                beautiful, performant web and mobile applications that users love. With expertise in 
+                MERN Stack (MongoDB, Express, React, Node.js) and React Native, I bring ideas to life 
+                across web and mobile platforms.
+              </p>
 
-<p className="text-foreground/80 leading-relaxed mb-6">
-  Our expertise spans full-stack development, computer vision, data analytics, 
-  and mobile app creation — delivering powerful systems that drive innovation, 
-  efficiency, and accessibility for our clients.
-</p>
+              <p className="text-foreground/80 leading-relaxed mb-6">
+                My focus is on delivering full-stack solutions that don't compromise on 
+                quality or user experience. From concept to deployment, I ensure every application 
+                is crafted with attention to detail and modern best practices.
+              </p>
 
-<p className="text-foreground/80 leading-relaxed mb-6">
-  Using a modern technology stack — including Python, Next.js, Flutter, Firebase, Power BI, 
-  and OpenCV — we build scalable, secure, and high-performance products designed to grow with your business.
-</p>
+              <p className="text-foreground/80 leading-relaxed mb-6">
+                Using cutting-edge technologies like React, Node.js, Express, MongoDB, React Native, 
+                and modern state management solutions, I build scalable and maintainable applications 
+                that grow with your business needs.
+              </p>
 
-<p className="text-foreground/80 leading-relaxed">
-  Together, let’s turn your ideas into impactful digital experiences.
-</p>
+              <p className="text-foreground/80 leading-relaxed">
+                Let's collaborate to turn your vision into a stunning mobile experience.
+              </p>
 
             </div>
 
             <div className="order-1 md:order-2 relative group">
               <div className="relative overflow-hidden rounded-2xl shadow-2xl border-2 border-hero-accent/20">
                 <img 
-                  src="/profile.jpeg" 
-                  alt="NovaSoftCode" 
+                  src="/mypic.jpeg" 
+                  alt="Muhammad Owais" 
                   className="w-full aspect-square transition-transform duration-500 group-hover:scale-110"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent"></div>
@@ -61,9 +64,9 @@ const About = () => {
             </div>
           </div>
 
-          <h3 className="text-2xl font-bold text-center mb-8">Our Specialties</h3>
+          <h3 className="text-2xl font-bold text-center mb-8">My Specialties</h3>
           
-          <div className="grid md:grid-cols-2 lg:grid-cols-5 gap-8 mb-12">
+          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8 mb-12">
             {/* Frontend */}
             <div className="text-center p-6 bg-card rounded-lg card-hover">
               <Code className="w-12 h-12 text-hero-accent mx-auto mb-4" />
@@ -95,21 +98,6 @@ const About = () => {
               </div>
             </div>
 
-            {/* AI/ML */}
-            <div className="text-center p-6 bg-card rounded-lg card-hover">
-              <Users className="w-12 h-12 text-hero-accent mx-auto mb-4" />
-              <h4 className="text-xl font-semibold mb-3">AI/ML Engineer</h4>
-              <p className="text-foreground/70 text-sm mb-4">
-                Implementing machine learning models and AI-driven solutions
-              </p>
-              <div className="flex flex-wrap gap-2 justify-center">
-                <span className="px-2 py-1 bg-hero-accent/20 text-hero-accent rounded text-xs">NLP</span>
-                <span className="px-2 py-1 bg-hero-accent/20 text-hero-accent rounded text-xs">PyTorch</span>
-                <span className="px-2 py-1 bg-hero-accent/20 text-hero-accent rounded text-xs">TensorFlow</span>
-                <span className="px-2 py-1 bg-hero-accent/20 text-hero-accent rounded text-xs">OpenCV</span>
-              </div>
-            </div>
-
             {/* Mobile */}
             <div className="text-center p-6 bg-card rounded-lg card-hover">
               <Zap className="w-12 h-12 text-hero-accent mx-auto mb-4" />
@@ -118,7 +106,8 @@ const About = () => {
                 Developing cross-platform mobile applications
               </p>
               <div className="flex flex-wrap gap-2 justify-center">
-                <span className="px-2 py-1 bg-hero-accent/20 text-hero-accent rounded text-xs">Flutter</span>
+                <span className="px-2 py-1 bg-hero-accent/20 text-hero-accent rounded text-xs">React Native</span>
+                <span className="px-2 py-1 bg-hero-accent/20 text-hero-accent rounded text-xs">iOS</span>
                 <span className="px-2 py-1 bg-hero-accent/20 text-hero-accent rounded text-xs">Android</span>
               </div>
             </div>
